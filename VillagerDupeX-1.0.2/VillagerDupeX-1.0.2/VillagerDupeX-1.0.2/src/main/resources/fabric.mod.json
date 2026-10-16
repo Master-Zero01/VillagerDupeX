@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerdupex",
+  "version": "${version}",
+  "name": "VillagerDupe X",
+  "description": "Automates normal client interactions with nearby villagers holding supported shearable items.",
+  "authors": [
+    "MasterZero"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.masterzero.villagerdupex.VillagerDupeX"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.156.0"
+  }
+}
